@@ -67,7 +67,7 @@ color: red;
   text-align: center;
 }*/
 .profile-img-3 {
-  width: 10rem;
+  width: 100%;
 }
 
 .underline-white {
@@ -97,7 +97,7 @@ color: red;
 
 .profile-img {
   height: 100rem;
-  width: 100rem;
+  width: 100%;
   padding-top: 1rem; 
 }
 
