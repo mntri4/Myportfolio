@@ -279,7 +279,7 @@ body {
 
 #main {
   transition: margin-left .5s;
-  padding: 16px;
+  padding: 12px;
 }
 
 @media screen and (max-height: 450px) {
