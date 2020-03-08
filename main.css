@@ -72,10 +72,12 @@ color: red;
 
 .underline-white {
   text-decoration: underline white;
+  padding: 8px;
 }
 
 .underline-orange {
   text-decoration: underline #f7e289;
+  padding: 8px;
 }
 
 .container-skill-img {
