@@ -9,6 +9,17 @@ body {
   text-align: center;
   line-height: 1.5;
 }
+@media screen and (min-width:480px) {
+  body {
+    /* style changes when the screen gets larger */
+  }
+}
+
+@media screen and (min-width:800px) {
+  body {
+     /* And even larger */
+  }
+ }
 
 
 nav,
