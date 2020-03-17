@@ -31,6 +31,7 @@ footer {
   font-size: 40px;
   background-color: #365180;
   display: inline;
+  text-align: center;
 }
 
 nav {
@@ -238,6 +239,7 @@ body {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  text-align: center;
 }
 
 
