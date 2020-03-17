@@ -27,6 +27,7 @@ footer {
   padding: 1% 0;
   font-size: 40px;
   background-color: #365180;
+  display: inline;
 }
 
 nav {
@@ -97,8 +98,7 @@ color: red;
 }
 
 .container-skill-img-1 {
-  width: 20rem;
-  margin-left: 1rem;
+  width: 18rem;
   padding-top: 20px;
 
   
@@ -315,7 +315,7 @@ body {
  }
  
 .openNav {
- width: 250pxl;
+width: 250px;
 margin-left: 250px;
 background-color: rgba(0,0,0,0.4)
 }
