@@ -27,11 +27,11 @@ body {
 
 nav,
 footer {
-  padding: 1% 0;
+  padding: 0;
   font-size: 40px;
   background-color: #365180;
   display: inline;
-  text-align: center;
+  text-align: left;
 }
 
 nav {
@@ -39,7 +39,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 10;
+  z-index: 4;
 }
 
 header {
@@ -99,6 +99,7 @@ color: red;
 .container-skill-img {
   width: 2rem;
   margin-left: 1rem; 
+  padding-bottom: 10;
 }
 
 .container-skill-img-1 {
