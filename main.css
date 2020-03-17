@@ -190,8 +190,10 @@ color: red;
 
 #main {
   transition: margin-left .5s;
-  padding: 16px;
-  text-align: center; 
+  padding: 0px;
+  text-align: left; 
+  width: 240px;
+  height: 0px;
 }
 
 @media screen and (max-height: 450px) {
