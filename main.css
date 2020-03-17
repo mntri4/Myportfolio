@@ -9,6 +9,9 @@ body {
   text-align: center;
   line-height: 1.5;
 }
+
+
+
 @media screen and (min-width:480px) {
   body {
     /* style changes when the screen gets larger */
@@ -186,6 +189,7 @@ color: red;
 #main {
   transition: margin-left .5s;
   padding: 16px;
+  text-align: center; 
 }
 
 @media screen and (max-height: 450px) {
@@ -236,19 +240,12 @@ body {
   margin-left: 50px;
 }
 
-#main {
-  transition: margin-left .5s;
-  padding: 1px;
-}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
 
-#main2 {
- text-align: left; 
-}
 
 body {
   font-family: "Lato", sans-serif;
@@ -292,10 +289,6 @@ body {
   margin-left: 50px;
 }
 
-#main {
-  transition: margin-left .5s;
-  padding: 12px;
-}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
