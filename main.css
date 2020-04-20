@@ -4,11 +4,10 @@
 
 body {
   font-family:  100%/1.25 'Roboto', helvetica, sans-serif;
-  font-size: 26px;
+  font-size: 23px;
   color: white;
   text-align: center;
   line-height: 1.5;
-  
 }
 
 
@@ -206,7 +205,7 @@ color: red;
  text-align: left; 
 }
 
-.body {
+body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
 }
@@ -253,7 +252,7 @@ color: red;
 }
 
 
-.body {
+body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
 }
@@ -310,7 +309,6 @@ color: red;
 
 .projects {
  width: 20rem; 
- font-size: 26px;
 }
 
 .capstone {
