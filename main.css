@@ -12,26 +12,12 @@ body {
   line-height: 1.5;
 }
 
-
-
-@media screen and (min-width:480px) {
-  body {
-    /* style changes when the screen gets larger */
-  }
-}
-
-@media screen and (min-width:800px) {
-  body {
-     /* And even larger */
-  }
- }
-
-
 nav,
 footer {
   padding: 0;
   font-size: 40px;
-  background-color: #365180;
+  /*background-color: #365180;*/
+  background-color: #5d80bb;
   display: inline;
   text-align: left;
 }
@@ -55,7 +41,8 @@ header {
 section {
   min-height: 100px;
   padding: 10% 0;
-  background-color: #365180;
+  /*background-color: #365180;*/
+  background-color: #5d80bb;
 }
 
 section:nth-child(even) {
@@ -71,7 +58,8 @@ section:nth-child(even) {
   line-height: 1.5;
 }
 #nothing2 {
-  background-color:#365180;
+  /*background-color:#365180;*/
+  background-color: #5d80bb;
   text-align: left;
   margin-left:10px;
   padding: 8px;
@@ -81,9 +69,7 @@ section:nth-child(even) {
 .red {
 color: red;
 }
-/*.about {
-  text-align: center;
-}*/
+
 .profile-img-3 {
   width: 10rem;
 }
@@ -127,8 +113,8 @@ color: red;
   color: white;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #2a0986;
-}
+  /*background-color: #2a0986;*/
+background-color:#5d80bb;}
 
 #contact h2 {
   font-family: 100%/1.25 'Roboto', helvetica, sans-serif;
@@ -198,11 +184,6 @@ color: red;
   height: 0px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
 #main2 {
  text-align: left; 
 }
@@ -247,18 +228,10 @@ body {
   text-align: center;
 }
 
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-
 body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
 }
-
 
 .sidenav {
   height: 100%;
@@ -299,12 +272,6 @@ body {
   font-size: 36px;
   margin-left: 50px;
 }
-
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-
 .portfolio-projects {
   width: 100%;
 }
@@ -323,3 +290,31 @@ width: 250px;
 margin-left: 250px;
 background-color: rgba(0,0,0,0.4)
 }
+
+@media screen and (min-width:480px) {
+  body {
+    
+  }
+}
+
+@media screen and (min-width:800px) {
+  body {
+     /
+  }
+ }
+
+ @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
