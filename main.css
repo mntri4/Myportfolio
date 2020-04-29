@@ -46,7 +46,8 @@ section {
 }
 
 section:nth-child(even) {
-  background-color:#365180;
+  /*background-color:#365180;*/
+  background-color: #5f80bb;
   text-align: center;
 }
 
